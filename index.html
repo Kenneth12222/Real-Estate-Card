@@ -12,7 +12,29 @@ Explain
 <body>
     <div class="container">
         <h2 class="title">Real Estate Listing</h2>
+        <div class="cards">
+            <!-- Real Estate Card -->
+            <div class="card real-estate-card complex">
+                <div class="card-header">
+                    <div class="slider">
+                        <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property Image 1" class="slide active">
+                        <img src="https://images.pexels.com/photos/5178055/pexels-photo-5178055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property Image 2" class="slide">
+                        <img src="https://images.pexels.com/photos/3958958/pexels-photo-3958958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property Image 3" class="slide">
+                    </div>
+                    <div class="controls">
+                        <div class="icon">
+                            <i class="bi bi-arrow-left-circle-fill" onclick="prevSlide()"></i>
+                        </div>
 
+                        <div class="icon">
+                            <i class="bi bi-arrow-right-circle-fill" onclick="nextSlide()"></i>
+                        </div>
+                    </div>
+                    <div class="price">$2,500,000</div>
+                </div>
+              
+            </div>
+        </div>
     </div>
 
     <script src="./src/js/script.js"></script>
