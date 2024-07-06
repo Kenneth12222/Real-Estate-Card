@@ -72,3 +72,96 @@ body {
     justify-content: space-between;
     padding: 0 20px;
 }
+
+.controls button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.card.real-estate-card .price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* background-color: #007BFF; */
+    backdrop-filter: blur(30px);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.card.real-estate-card .card-body {
+    padding: 20px;
+}
+
+.card.real-estate-card .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card.real-estate-card .card-location {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card.real-estate-card .property-details {
+    margin-bottom: 20px;
+}
+
+.card.real-estate-card .property-details .detail {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card.real-estate-card .card-description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card.real-estate-card .card-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card.real-estate-card .card-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.icon {
+    width: 40px;
+    height: 40px;
+    /* background-color: #fff; */
+    backdrop-filter: blur(30px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bi {
+    color: #fff;
+    cursor: pointer;
+}
