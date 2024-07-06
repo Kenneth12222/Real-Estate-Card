@@ -18,3 +18,24 @@ body {
     padding: 20px;
 }
 
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #555;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+/* Real Estate Card */
+.card.real-estate-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
