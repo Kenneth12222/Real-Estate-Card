@@ -164,4 +164,6 @@ body {
 .bi {
     color: #fff;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 25px;
 }
